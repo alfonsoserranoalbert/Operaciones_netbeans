@@ -4,7 +4,7 @@ package operacionesmatematicas;
 /**
  * 
  * @author Alfonso
- * @version 1.0 04/10/2024
+ * @version 1.1 04/10/2024
  * 
 /**
  * Clase que contiene métodos para operaciones matemáticas básicas.
