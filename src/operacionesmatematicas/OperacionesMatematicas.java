@@ -22,7 +22,13 @@ public class OperacionesMatematicas {
     public static int sumar(int numero1, int numero2) {
         return numero1 + numero2;
     }
-    
+    /**
+     * Resta dos números enteros y devuelve el resultado.
+     *
+     * @param numero1 El primer número a sumar.
+     * @param numero2 El segundo número a sumar.
+     * @return La resta de numero1 y numero2.
+     */
     public static int restar(int numero1, int numero2) {
         return numero1 - numero2;
     }
@@ -47,7 +53,7 @@ public class OperacionesMatematicas {
         System.out.println("La suma de " + num1 + " y " + num2 + " es: " + resultado);
         
          // Imprimir el resultado
-        System.out.println("La suma de " + num1 + " y " + num2 + " es: " + resta);
+        System.out.println("La resta de " + num1 + " y " + num2 + " es: " + resta);
         
         
     }
