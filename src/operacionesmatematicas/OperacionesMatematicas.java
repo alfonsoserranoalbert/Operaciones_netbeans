@@ -38,6 +38,23 @@ public class OperacionesMatematicas {
      *
      * @param args Los argumentos de la línea de comandos (no se utilizan aquí).
      */
+    
+    /**
+     * Resta dos números enteros y devuelve el resultado.
+     *
+     * @param numero1 El primer número a restar.
+     * @param numero2 El segundo número a restar.
+     * @return La resta de numero1 y numero2.
+     */
+    public static int multiplicar(int numero1, int numero2) {
+        return numero1 * numero2;
+    }
+
+    /**
+     * Método principal que ejecuta el programa para sumar dos números.
+     *
+     * @param args Los argumentos de la línea de comandos (no se utilizan aquí).
+     */
     public static void main(String[] args) {
         
         int num1 = 5;
