@@ -54,6 +54,14 @@ public class OperacionesMatematicas {
      * Método principal que ejecuta el programa para sumar dos números.
      *
      * @param args Los argumentos de la línea de comandos (no se utilizan aquí).
+     * 
+     */
+    
+
+    /**
+     * Método principal que ejecuta el programa para sumar dos números.
+     *
+     * @param args Los argumentos de la línea de comandos (no se utilizan aquí).
      */
     public static void main(String[] args) {
         
@@ -63,14 +71,24 @@ public class OperacionesMatematicas {
         // Llamar al método sumar
         int resultado = sumar(num1, num2);
        
-   // Llamar al método restar
+        // Llamar al método restar
         int resta = restar(num1, num2);
+        
+        // Llamar al método multiplicar
+        int mul = multiplicar(num1, num2);
+        
+
         
         // Imprimir el resultado
         System.out.println("La suma de " + num1 + " y " + num2 + " es: " + resultado);
         
          // Imprimir el resultado
         System.out.println("La resta de " + num1 + " y " + num2 + " es: " + resta);
+        
+         // Imprimir el resultado
+        System.out.println("La multiplicación de " + num1 + " y " + num2 + " es: " + mul);
+        
+
         
         
     }
