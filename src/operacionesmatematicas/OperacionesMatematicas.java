@@ -25,8 +25,8 @@ public class OperacionesMatematicas {
     /**
      * Resta dos números enteros y devuelve el resultado.
      *
-     * @param numero1 El primer número a sumar.
-     * @param numero2 El segundo número a sumar.
+     * @param numero1 El primer número a restar.
+     * @param numero2 El segundo número a restar.
      * @return La resta de numero1 y numero2.
      */
     public static int restar(int numero1, int numero2) {
